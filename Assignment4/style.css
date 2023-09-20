@@ -1,0 +1,80 @@
+/* This is a style sheet for BasicCSS.html */
+
+
+p {
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  .specialp{
+    color: #c2ff33;
+    background-color: darkgreen;
+  }
+
+  .specialid {
+    color:darkblue;
+    background-color: aqua;
+  }
+
+  #divexample {
+    background-color: blue;
+  }
+
+  .spanstyle {
+    color: #ff33e4;
+  }
+
+  a {
+    color: #1f6528;
+}
+
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff48;
+  }
+
+  a:hover {
+    color: #ffff00;
+  } 
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .centered-paragraph {
+    text-align: center;
+  }
+  
+  .centered-paragraph {
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  .justified-paragraph {
+    text-align: justify;
+  }
+
+  
+h1, h2, h3, h4, h5, h6 {
+  color: orange; 
+  font-style: italic; 
+  font-weight: normal; 
+}
+
+
+img {
+  border: 10px solid black; 
+  padding: 10px; 
+  background-color: yellow; 
+}
+
+body {
+  background-image: url('family.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+ 
+  background-color: #ffffff; 
+}

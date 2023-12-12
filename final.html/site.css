@@ -61,20 +61,53 @@
           
           #wrapper {
             margin: 1em auto;
-            width: 960px;
-            border: 3px solid black;
+            width: 1075px;
+            border: 10px solid rgb(0, 61, 13);
             background-color: #ffffff;
             padding: 1em;
           }
           
+#wrapper2 {
+  margin: 1em auto;
+          width: 425px;
+            border: 10px solid rgb(0, 61, 13);
+            background-color: #ffffff;
+            padding: 1em;
+            size: 300px;
+            float: inline-start;
+}
+
+#wrapper3 {
+  margin: 1em auto;
+  width: 425px;
+    border: 10px solid rgb(0, 61, 13);
+    background-color: #ffffff;
+    padding: 1em;
+    size: 300px;
+    float: inline-start;
+}
+
+#wrapper4 {
+  margin: 1em auto;
+  width: 425px;
+    border: 10px solid rgb(0, 61, 13);
+    background-color: #ffffff;
+    padding: 1em;
+    size: 300px;
+    float: inline-start;
+}
+
+
           #myCarousel {
             margin-bottom: 24px;
+            height: auto;
           }
           
            .f-carousel__slide {
             text-align: center;
             padding: 24px;
             background: #eee;
+            width: 500px;
             
           }
 
@@ -103,8 +136,31 @@
           }
 
           .bigger-image {
-            width: 250px; /* Adjust the width as needed */
+            width: 225px; /* Adjust the width as needed */
             height: auto; /* Maintain aspect ratio */
             border: 1px solid #003d09; /* Black border */
             padding: 5px;
+          }
+
+          .edit {
+            width: 180px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            border: 1px solid #003d09; /* Black border */
+            padding: 5px;
+          }
+
+          .gg {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            border: 1px solid #003d09; /* Black border */
+            padding: 5px;
+            float: left;
+          }
+
+          .ss {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            border: 1px solid #003d09; /* Black border */
+            padding: 5px;
+            float: right;
           }
